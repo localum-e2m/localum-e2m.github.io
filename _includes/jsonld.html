@@ -1,0 +1,33 @@
+<!-- _includes/jsonld.html -->
+{% assign same_as = "" | split: "" %}
+{% if site.social.youtube %}{% assign same_as = same_as | push: site.social.youtube %}{% endif %}
+{% if site.social.instagram %}{% assign same_as = same_as | push: site.social.instagram %}{% endif %}
+{% if site.social.facebook %}{% assign same_as = same_as | push: site.social.facebook %}{% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": {{ site.brand | jsonify }},
+  "description": {{ site.description | jsonify }},
+  "image": [{{ site.seo.open_graph_image | default: site.logo_path | jsonify }}],
+  "url": {{ site.url | append: site.baseurl | jsonify }},
+  "telephone": {{ site.contact.phone | jsonify }},
+  "email": {{ site.contact.email | jsonify }},
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ site.contact.address | jsonify }},
+    "addressLocality": {{ site.delivery.base_city | jsonify }},
+    "addressCountry": "FR"
+  },
+  "areaServed": {{ site.seo.city_targets | jsonify }},
+  "priceRange": "€€",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ site.delivery.center_lat | default: 0 }},
+    "longitude": {{ site.delivery.center_lng | default: 0 }}
+  },
+  "areaServed": {{ site.seo.city_targets | jsonify }},
+  "priceRange": "€€"{% if same_as.size > 0 %},
+  "sameAs": {{ same_as | jsonify }}{% endif %}
+}
+</script>

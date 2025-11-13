@@ -1,0 +1,242 @@
+﻿# _config.yml
+title: "LOCALUM - E2M"
+brand: "LOCALUM - E2M"
+brand_tagline: "Location sono & lumières événementielles en Gironde"
+logo_path: "/assets/img/webp/logo.webp"
+description: "Location de jeux de lumière, sonorisation et packs DJ avec accompagnement personnalisé en Gironde."
+url: ""
+baseurl: ""
+owner_name: "Timothy"
+
+status_banner:
+  enabled: true
+  text: "Site en version de test : certaines informations peuvent évoluer avant le lancement officiel."
+  link:
+    label: "Nous contacter"
+    url: "mailto:localum-e2m@outlook.fr"
+
+navigation:
+  - label: "Accueil"
+    url: "/"
+  - label: "Services"
+    url: "/services/"
+  - label: "Catalogue"
+    url: "/catalogue/"
+  - label: "Packs"
+    url: "/packs/"
+  - label: "Contact"
+    url: "/contact/"
+  - label: "Réserver"
+    url: "https://forms.gle/votre-form"
+    external: true
+    style: "button"
+
+contact:
+  phone: "+33 6 30 68 68 25"
+  email: "localum-e2m@outlook.fr"
+  address: "27 Merlet 33420 Espiet FRANCE"
+  siret: "992 409 094 00016"
+  legal_contact: "RUHER Timothy"
+  legal_name: "LOCALUM - E2M"
+  legal_status: "Entreprise individuelle (micro-entrepreneur)"
+  siren: "992 409 094"
+  rcs: "Dispense d'immatriculation au RCS et au RM, conforme à l'article L123-1-1 du Code de commerce."
+  vat: "TVA non applicable, article 293 B du CGI."
+  insurance: "Responsabilité civile professionnelle MAIF - Police 123456789"
+  ape: " 7729Z - Location et location-bail d'autres biens personnels et domestiques"
+
+social:
+  youtube: "https://youtube.com/@timothy-party-lights"
+  instagram: "https://instagram.com/votrecompte"
+  facebook: "https://facebook.com/votrepage"
+
+delivery:
+  base_city: "Espiet"
+  center_lat: 44.807
+  center_lng: -0.256
+  tiers:
+    - { radius_km: 5, price_eur: 10, label: "Zone 1", color: "#ef4444", contact_note: "Contactez-moi pour planifier une livraison très proche." }
+    - { radius_km: 10, price_eur: 25, label: "Zone 2", color: "#facc15", contact_note: "Contactez-moi pour organiser la livraison." }
+    - { radius_km: 15, price_eur: 40, label: "Zone 3", color: "#2563eb", contact_note: "Contactez-moi pour organiser la livraison." }
+  install_price_from_eur: 49
+
+forms:
+  booking_google_form_url: "https://forms.gle/votre-form"
+  contact_form_embed_url: "https://docs.google.com/forms/d/e/votre-form-id/viewform?embedded=true"
+
+pricing:
+  currency: "EUR"
+  caution_policy: "Caution par chèque ou empreinte CB, restituée au retour du matériel."
+  weekend: "Tarif week-end = retrait vendredi, retour lundi matin."
+  notes: "Remises pour associations et étudiants sur justificatif."
+
+ui:
+  theme:
+    default: "system"
+    light:
+      background: "#fdfcff"
+      surface: "#ffffff"
+      elevated: "#f7f7ff"
+      text: "#1b1d2c"
+      text_muted: "#555b75"
+      accent: "#5b3ff6"
+      accent_soft: "rgba(91, 63, 246, 0.15)"
+      border: "rgba(27, 29, 44, 0.12)"
+      shadow: "0 22px 44px rgba(27, 29, 44, 0.12)"
+      gradient: "linear-gradient(130deg, rgba(91, 63, 246, 0.88) 0%, rgba(230, 92, 162, 0.78) 48%, rgba(255, 190, 92, 0.72) 100%)"
+      bubble_primary: "rgba(91, 63, 246, 0.12)"
+      bubble_secondary: "rgba(230, 92, 162, 0.18)"
+      bubble_tertiary: "rgba(79, 209, 197, 0.16)"
+    dark:
+      background: "#05060d"
+      surface: "#0f1327"
+      elevated: "#151b36"
+      text: "#f2f4ff"
+      text_muted: "#a5add6"
+      accent: "#867aff"
+      accent_soft: "rgba(134, 122, 255, 0.16)"
+      border: "rgba(165, 173, 214, 0.18)"
+      shadow: "0 24px 60px rgba(5, 6, 13, 0.5)"
+      gradient: "linear-gradient(135deg, rgba(86, 76, 255, 0.65) 0%, rgba(228, 60, 149, 0.65) 100%)"
+      bubble_primary: "rgba(76, 201, 240, 0.28)"
+      bubble_secondary: "rgba(255, 183, 77, 0.32)"
+      bubble_tertiary: "rgba(144, 238, 144, 0.26)"
+  glass: "rgba(255, 255, 255, 0.08)"
+  fonts:
+    primary: "'Poppins', 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif"
+    display: "'Archivo', 'Poppins', 'Inter', sans-serif"
+    google: "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap"
+
+branding:
+  hero:
+    eyebrow: "Location sono & lumières"
+    highlight_badge: "Pour une soirée impeccable"
+    title: "Illuminez vos événements sans stress"
+    subtitle: "Location de sonorisation et/ou de jeux de lumières pour une soirée réussie. Lancez votre playlist et enflammez votre dancefloor !"
+    image: "/assets/img/webp/hero.webp"
+    ctas:
+      primary:
+        label: "Nous contacter"
+        url: "/contact/"
+        external: false
+      secondary:
+        label: "Voir les packs"
+        url: "/packs/"
+        external: false
+      catalogue:
+        label: "Voir le catalogue"
+        url: "/catalogue/"
+        external: false
+  features:
+    - title: "Matériel pro calibré"
+      description: "Enceintes, contrôleurs DJ et lumières révisés avant chaque sortie."
+    - title: "Livraison & installation"
+      description: "Zones tarifaires transparentes, mise en place sur site et reprise après l’événement."
+    - title: "Interlocuteur unique"
+      description: "Un seul contact du devis au démontage, assistance directe par téléphone ou sur place."
+  differentiators:
+    title: "Votre ambiance, mon savoir-faire"
+    items:
+      - icon: "🪩"
+        title: "Pack personnalisable"
+        text: "Modulable selon vos envies et votre évènement."
+      - icon: "🚚"
+        title: "Livraison & installation possible"
+        text: "Je me déplace, j'installe et je récupère le matériel pour un service sans contraintes."
+      - icon: "💡"
+        title: "Jeux de lumière à faible consommation"
+        text: "Équipements LED modernes, brillants et économes en énergie."
+      - icon: "🎚️"
+        title: "Simplicité d'utilisation"
+        text: "Matériel prêt à l'emploi avec briefing clair et assistance si besoin."
+      
+
+home:
+  process:
+    title: "Comment ça marche"
+    steps:
+      - title: "Choisissez votre pack"
+        description: "Réservez un pack existant ou demandez une combinaison sur mesure."
+      - title: "Livraison & installation"
+        description: "Je livre, j’installe et je teste le matériel avec vous."
+      - title: "Profitez & restituez"
+        description: "Contact direct pendant l’événement, reprise le lendemain ou le lundi."
+  testimonials:
+    title: "Ils me font confiance"
+    items:
+      - quote: "Installation parfaite jusqu’à ce que j’active, par accident, le mode ‘Éveil Cosmique’. Les projecteurs ont ouvert un portail dimensionnel et un pigeon a donné une conférence TED."
+      - author: "Kim Bourlet – Mariage à Bordeaux"
+
+      - quote: "Matériel si simple que je l’ai laissé gérer l’événement seul pendant que j’entrais en trance. À mon retour, les 200 invités avaient élu la machine maire de Libourne."
+      - author: "Kim Bourlet – NightRun à Libourne"
+
+
+
+services_page:
+  highlights:
+    - title: "Livraison par zones ou retrait"
+      text: "Trois zones tarifaires en fonction du lieu de votre évènement."
+    - title: "Installation clé en main"
+      text: "Je livre, j’installe et je vous montre comment profiter du matériel sereinement."
+    - title: "Accompagnement direct"
+      text: "Contact unique avant, pendant et après l’événement."
+  extras:
+    - title: "Location longue durée"
+      text: "Tarifs dégressifs à partir de 3 jours."
+    - title: "Scénographie lumière"
+      text: "Création de scénarios DMX personnalisés."
+    - title: "Pack micro conférence"
+      text: "Micro HF, pupitre, retour scène."
+
+footer:
+  callout:
+    eyebrow: "Prêt à allumer votre soirée ?"
+    title: "Réservez votre pack sono & lumière"
+    subtitle: ""
+    button:
+      label: "Contactez moi"
+      url: "https://forms.gle/votre-form"
+  info:
+    hours: "Lun - Sam : 9 h à 19 h"
+    service_area: "Livraison jusqu’à 50 km autour de notre dépôt"
+  links:
+    - label: "Mentions légales"
+      url: "/mentions-legales/"
+    - label: "Contact"
+      url: "/contact/"
+  social_intro: "Suivez nos démos"
+
+legal:
+  host:
+    name: "GitHub, Inc."
+    address: "88 Colin P Kelly Jr St, San Francisco, CA 94107, USA"
+    website: "https://github.com"
+    phone: "+1 877 448 4820"
+  data_policy: "Les informations du formulaire sont utilisées pour la gestion des demandes, conformément au RGPD."
+  intellectual: "Tous les textes et médias sont la propriété de LOCALUM - E2M ou de leurs auteurs."
+  liability: "Malgré tous les efforts pour garantir l'exactitude des informations publiées, l'éditeur ne saurait être tenu responsable des dommages directs ou indirects résultant de l'utilisation du site."
+
+seo:
+  keywords:
+    - "location sono Gironde"
+    - "location lumière événementielle"
+    - "DJ Daignac"
+    - "éclairage mariage Bordeaux"
+    - "sonorisation soirée privée"
+    - "pack sono lumière clé en main"
+    - "installation lumière DJ"
+    - "location lyres LED Gironde"
+  city_targets: ["Daignac", "Bordeaux", "Libourne", "Entre-Deux-Mers", "Gironde", "Nouvelle-Aquitaine"]
+  open_graph_image: "/assets/og.jpg"
+  enable_jsonld: true
+
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+
+permalink: /:title/

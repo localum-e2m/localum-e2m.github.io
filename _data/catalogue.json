@@ -1,0 +1,573 @@
+{
+  "intro": "Sélectionnez le matériel qui correspond à votre événement. Chaque élément est contrôlé avant départ.",
+  "categories": [
+    {
+      "name": "Sono & diffusion",
+      "showcases": [
+        {
+          "name": "Sonorisation FBT",
+          "summary": "Système passif complet avec amplificateur et mixeur intégré, idéal pour des événements jusqu’à 60 personnes.",
+          "details": [
+            {
+              "title": "Description complète",
+              "text": "Ce système de sonorisation FBT se compose de deux enceintes passives 3 voies de 120 W RMS chacune, associées à un amplificateur avec mixeur intégré. Compact et fiable, il offre une excellente clarté sonore pour la musique, les discours ou les ambiances conviviales. L’ensemble est fourni prêt à l’emploi avec une table de mixage, deux pieds d’enceintes et tous les câblages nécessaires pour connecter un PC, un téléphone ou une console."
+            },
+            {
+              "title": "Rendu",
+              "text": "Son clair et équilibré, parfaitement adapté pour la diffusion musicale, les prises de parole ou les animations de petite à moyenne taille. Idéal pour un public jusqu’à 60 personnes."
+            },
+            {
+              "title": "Utilisation",
+              "text": "Convient aux mariages, vins d’honneur, garden-parties, réunions professionnelles ou petits concerts acoustiques. Installation rapide, connectique simple et matériel robuste."
+            }
+          ],
+          "specs": [
+            "2 enceintes passives 3 voies de 120 W RMS",
+            "Amplificateur avec mixeur intégré",
+            "Table de mixage, pieds et câblages inclus (mini-jack pour PC ou téléphone)",
+            "Puissance totale : 240 W RMS",
+            "Utilisation recommandée : jusqu’à 60 personnes"
+          ],
+          "photos": [
+            {
+              "src": "/assets/img/webp/Catalogue/SONO-FBT/sono_FBT_1.webp",
+              "alt": "Système de sonorisation FBT complet sur pieds"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/SONO-FBT/sono_FBT_2.webp",
+              "alt": "Enceintes FBT avec amplificateur et mixeur intégré"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/SONO-FBT/sono_FBT_3.webp",
+              "alt": "Sonorisation FBT prête à l’emploi avec table de mixage"
+            }
+          ]
+        },
+        {
+          "name": "Sonorisation amplifiée IMG STAGE LINE – TRITON 500",
+          "summary": "Système triphonique actif puissant et équilibré, idéal pour sonoriser des événements jusqu’à 100 personnes.",
+          "details": [
+            {
+              "title": "Description complète",
+              "text": "Le système IMG STAGE LINE – TRITON 500 est un ensemble triphonique actif composé d’un caisson de basses de 300 W RMS et de deux satellites de 100 W RMS chacun. Compact mais puissant, il délivre un son clair et précis avec une excellente répartition des basses et des médiums. L’ensemble est fourni avec une table de mixage, des pieds d’enceintes et tous les câblages nécessaires pour le branchement d’un PC, d’un téléphone ou d’une console via mini-jack."
+            },
+            {
+              "title": "Rendu",
+              "text": "Basses profondes et percutantes, médiums précis et aigus clairs. Le TRITON 500 offre un rendu équilibré, parfait pour la musique live, les soirées dansantes ou les discours nécessitant une diffusion homogène sur une grande surface."
+            },
+            {
+              "title": "Utilisation",
+              "text": "Convient aux mariages, événements d’entreprise, fêtes, DJ sets et concerts acoustiques. Installation rapide, connexion simple et puissance suffisante pour sonoriser jusqu’à 100 personnes."
+            }
+          ],
+          "specs": [
+            "Système triphonique actif : 1 subwoofer (300 W RMS) + 2 satellites (100 W RMS chacun)",
+            "Puissance totale : 500 W RMS",
+            "Table de mixage, pieds et câblages inclus (mini-jack pour PC ou téléphone)",
+            "Caisson de basses intégré avec amplification",
+            "Utilisation recommandée : jusqu’à 100 personnes"
+          ],
+          "photos": [
+            {
+              "src": "/assets/img/webp/Catalogue/SONO-TRITON500/placeholder.webp",
+              "alt": "Système IMG STAGE LINE TRITON 500 complet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lumières & effets",
+      "video_gallery": {
+        "title": "Voir les lumières en action",
+        "intro": "Chaque vidéo présente un effet phare : comparez les rendus avant de réserver."
+      },
+      "showcases": [
+        {
+          "name": "ADJ MAJESTIC LED",
+          "summary": "Moonflower LED puissant pour des effets dynamiques et colorés.",
+          "details": [
+            {
+              "title": "Description complète",
+              "text": "Moonflower LED composé de 184 LED (64 rouges, 60 vertes, 60 bleues) offrant des effets multicolores vifs et un rendu puissant. Idéal pour dynamiser une piste de danse ou créer une ambiance festive."
+            },
+            {
+              "title": "Rendu",
+              "text": "Faisceaux colorés synchronisés sur la musique, effets en mouvement constant et couverture large de la salle."
+            },
+            {
+              "title": "Utilisation",
+              "text": "Convient parfaitement pour les soirées dansantes, anniversaires, mariages ou événements nécessitant un jeu de lumière compact et efficace."
+            }
+          ],
+          "specs": [
+            "184 LED (64 rouges, 60 vertes, 60 bleues)",
+            "Mode : Automatique et réactif à la musique",
+            "Faible consommation, chauffe minimale"
+          ],
+          "video_embed": "https://www.youtube.com/embed/7oNl0AbSTx8?si=K1w-JcImPQmUPb1s",
+          "video_source": "Source vidéo : Timothy party lights -Jeu de lumière LED : ADJ (American DJ) Majestic LED",
+
+          "photos": [
+            {
+              "src": "/assets/img/webp/Catalogue/ADJ-MAJESTIC-LED/ADJ-MAJESTIC-LED-1.webp",
+              "alt": "ADJ MAJESTIC LED vue avant"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/ADJ-MAJESTIC-LED/ADJ-MAJESTIC-LED-2.webp",
+              "alt": "ADJ MAJESTIC LED en fonctionnement"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/ADJ-MAJESTIC-LED/ADJ-MAJESTIC-LED-3.webp",
+              "alt": "Effets colorés du MAJESTIC LED"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/ADJ-MAJESTIC-LED/ADJ-MAJESTIC-LED-4.webp",
+              "alt": "Jeu de lumière ADJ MAJESTIC LED"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/ADJ-MAJESTIC-LED/ADJ-MAJESTIC-LED-5.webp",
+              "alt": "Moonflower LED en soirée"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/ADJ-MAJESTIC-LED/ADJ-MAJESTIC-LED-6.webp",
+              "alt": "ADJ MAJESTIC LED vue arrière"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/ADJ-MAJESTIC-LED/ADJ-MAJESTIC-LED-7.webp",
+              "alt": "Motifs lumineux du MAJESTIC LED"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/ADJ-MAJESTIC-LED/ADJ-MAJESTIC-LED-8.webp",
+              "alt": "Rendu coloré du MAJESTIC LED en salle"
+            }
+          ]
+        },
+        {
+          "name": "CONTEST LED BEAMER",
+          "summary": "Jeu de lumière multi-faisceaux compact et économe, idéal pour créer une ambiance dynamique.",
+          "details": [
+            {
+              "title": "Description complète",
+              "text": "Le CONTEST LED BEAMER est un projecteur multi-faisceaux équipé de deux LED tricolores de 9 W. Conçu pour offrir un rendu puissant et immersif, il projette des dizaines de faisceaux colorés qui balaient la pièce au rythme de la musique. Sa technologie LED garantit une consommation très faible et une chauffe quasi nulle, même en fonctionnement prolongé."
+            },
+            {
+              "title": "Rendu",
+              "text": "Effets lumineux intenses et variés : faisceaux rapides, croisés et multicolores, synchronisés sur la musique. Parfait pour animer une piste de danse ou renforcer les transitions visuelles d’un set DJ."
+            },
+            {
+              "title": "Utilisation",
+              "text": "Compact et simple à installer, il convient aussi bien aux DJ mobiles qu’aux événements privés : mariages, anniversaires, soirées club ou ambiances festives."
+            }
+          ],
+          "specs": [
+            "Source : 2 LED tricolores de 9 W",
+            "Mode de fonctionnement : automatique ou réactif à la musique",
+            "Des dizaines de faisceaux colorés en mouvement",
+            "Faible consommation électrique et aucune chauffe notable"
+          ],
+          "video_embed": "https://www.youtube.com/embed/57o72ctb7OM?si=sfp-itHsa7rTlYEH",
+          "video_source": "Source vidéo : Timothy party lights - Jeu de lumière LED - CONTEST LED BEAMER",
+
+          "photos": [
+            {
+              "src": "/assets/img/webp/Catalogue/CONTEST-LED-BEAMER/contest-ledbeamer-1.webp",
+              "alt": "Contest LED Beamer en démonstration"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/CONTEST-LED-BEAMER/contest-ledbeamer-2.webp",
+              "alt": "Faisceaux du Contest LED Beamer sur scène"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/CONTEST-LED-BEAMER/contest-ledbeamer-3.webp",
+              "alt": "Jeu de lumière Contest LED Beamer multicolore"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/CONTEST-LED-BEAMER/contest-ledbeamer-4.webp",
+              "alt": "Effets lumineux colorés du LED Beamer"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/CONTEST-LED-BEAMER/contest-ledbeamer-5.webp",
+              "alt": "Contest LED Beamer - vue arrière"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/CONTEST-LED-BEAMER/contest-ledbeamer-6.webp",
+              "alt": "Effets de faisceaux dans la fumée"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/CONTEST-LED-BEAMER/contest-ledbeamer-7.webp",
+              "alt": "Contest LED Beamer en soirée DJ"
+            }
+          ]
+        },
+        {
+          "name": "IBIZA LED STROBE LS-005",
+          "summary": "Stroboscope LED multicolore à effet wash, idéal pour renforcer l’ambiance lumineuse d’une soirée.",
+          "details": [
+            {
+              "title": "Description complète",
+              "text": "Le IBIZA LED STROBE LS-005 combine un effet stroboscope et un éclairage wash LED multicolore. Composé de 86 LED rouges, 87 LED vertes et 87 LED bleues, il crée une véritable douche de lumière avec des changements de couleurs dynamiques au rythme de la musique. Sa conception LED assure une faible consommation et une chauffe quasi nulle."
+            },
+            {
+              "title": "Rendu",
+              "text": "Effet visuel éclatant et homogène : alternance rapide de couleurs et lumière diffuse couvrant une large surface. Parfait pour accentuer les moments forts d’une soirée ou créer une ambiance de scène immersive."
+            },
+            {
+              "title": "Utilisation",
+              "text": "Convient aux DJ mobiles, soirées privées, bars, clubs et animations scéniques. Compact, fiable et économe, il s’intègre facilement dans tout pack lumière."
+            }
+          ],
+          "specs": [
+            "Source : 86 LED rouges, 87 LED vertes, 87 LED bleues",
+            "Effets : stroboscope + wash multicolore",
+            "Mode : automatique réactif à la musique",
+            "Faible consommation et chauffe minimale"
+          ],
+          "video_embed": "https://www.youtube.com/embed/pQGpmqJxH8s?si=9v-oEbR2m6G__UVH",
+          "video_source": "Source vidéo : Timothy party lights - IBIZA LED STROBE - LS 005 LED",
+          "photos": [
+            {
+              "src": "/assets/img/webp/Catalogue/IBIZA-LED-STROBE-LS-005/ibiza-ls005led-1.webp",
+              "alt": "IBIZA LED STROBE LS-005 en fonctionnement"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/IBIZA-LED-STROBE-LS-005/ibiza-ls005led-2.webp",
+              "alt": "Effet wash multicolore du IBIZA LS-005"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/IBIZA-LED-STROBE-LS-005/ibiza-ls005led-3.webp",
+              "alt": "IBIZA LED STROBE LS-005 en soirée"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/IBIZA-LED-STROBE-LS-005/ibiza-ls005led-4.webp",
+              "alt": "Jeu de lumière IBIZA LS-005 vue avant"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/IBIZA-LED-STROBE-LS-005/ibiza-ls005led-5.webp",
+              "alt": "Éclairage coloré du stroboscope IBIZA LS-005"
+            }
+          ]
+        },
+        {
+          "name": "MAC MAH SWING LED 2",
+          "summary": "Effet LED multifaisceaux puissant et coloré, idéal pour animer pistes et événements festifs.",
+          "details": [
+            {
+              "title": "Description complète",
+              "text": "Le MAC MAH SWING LED 2 est un jeu de lumière multifaisceaux équipé de 7 lentilles, chacune dotée de LEDs rouges, vertes, bleues et blanches. Ses programmes automatiques et sa réactivité au rythme de la musique créent un rendu dynamique et fluide. Compact et économe, il s’adapte à tous types d’événements."
+            },
+            {
+              "title": "Rendu",
+              "text": "Faisceaux colorés croisés et en mouvement constant, synchronisés sur la musique. L’effet visuel est riche, énergique et parfaitement adapté pour les ambiances de danse ou les temps forts d’une soirée."
+            },
+            {
+              "title": "Utilisation",
+              "text": "Parfait pour les DJ mobiles, clubs, mariages ou soirées privées. Léger et simple à installer, il s’intègre facilement sur un pied lumière ou dans un pack effet complet."
+            }
+          ],
+          "specs": [
+            "7 lentilles avec LEDs rouges, vertes, bleues et blanches",
+            "Modes : automatique et réactif à la musique",
+            "Effet multifaisceaux dynamique",
+            "Faible consommation et chauffe minimale",
+            "Poids : 3,2 kg"
+          ],
+          "video_embed": "https://www.youtube.com/embed/3BDhn3-goJg?si=E8700VPkwg8A-iV6",
+          "video_source": "Source vidéo : Timothy party lights - MAC MAH swing led",
+
+          "photos": [
+            {
+              "src": "/assets/img/webp/Catalogue/MACMAH-SWINGLED/macmah-swingled-1.webp",
+              "alt": "MAC MAH SWING LED 2 en fonctionnement"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/MACMAH-SWINGLED/macmah-swingled-2.webp",
+              "alt": "Effets lumineux multicolores du MAC MAH SWING LED 2"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/MACMAH-SWINGLED/macmah-swingled-3.webp",
+              "alt": "Jeu de lumière MAC MAH SWING LED 2 sur scène"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/MACMAH-SWINGLED/macmah-swingled-4.webp",
+              "alt": "Faisceaux dynamiques du SWING LED 2"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/MACMAH-SWINGLED/macmah-swingled-5.webp",
+              "alt": "MAC MAH SWING LED 2 vue avant"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/MACMAH-SWINGLED/macmah-swingled-6.webp",
+              "alt": "Rendu coloré du MAC MAH SWING LED 2 en soirée"
+            }
+          ]
+        },
+        {
+          "name": "JB SYSTEMS CALYPSO",
+          "summary": "Effet LED compact et puissant à 156 diodes, idéal pour dynamiser une piste de danse.",
+          "details": [
+            {
+              "title": "Description complète",
+              "text": "Le JB SYSTEMS CALYPSO est un jeu de lumière LED polyvalent équipé de 156 diodes haute luminosité. Il offre des programmes automatiques dynamiques et réagit parfaitement au rythme de la musique. Son faible encombrement et sa consommation réduite en font un choix idéal pour les soirées privées, clubs ou événements itinérants."
+            },
+            {
+              "title": "Rendu",
+              "text": "Faisceaux colorés intenses et variés, synchronisés sur le tempo musical. L’effet produit une atmosphère vive et rythmée, parfaite pour les moments de fête ou de transition sur la piste."
+            },
+            {
+              "title": "Utilisation",
+              "text": "Conçu pour les DJ mobiles, mariages, soirées dansantes ou animations scéniques. Léger, robuste et simple à utiliser, le CALYPSO peut être installé seul ou combiné à d’autres effets lumineux. Deux unités disponibles pour un rendu symétrique et immersif."
+            }
+          ],
+          "specs": [
+            "156 LEDs haute luminosité multicolores",
+            "Mode automatique et réactif à la musique",
+            "Programmes dynamiques intégrés",
+            "Faible consommation et chauffe minimale",
+            "2 unités disponibles"
+          ],
+          "video_embed": "https://www.youtube.com/embed/tbS9idOzmX8?si=cEWMHMGjI3QvLlaq",
+          "video_source": "Source vidéo : Timothy party lights - Jeu de lumière LED - JB SYSTEMS CALYPSO (x2)",
+
+          "photos": [
+            {
+              "src": "/assets/img/webp/Catalogue/JB-SYSTEMS-CALYPSO/JB-SYSTEMS-CALYPSO-1.webp",
+              "alt": "JB SYSTEMS CALYPSO en fonctionnement"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/JB-SYSTEMS-CALYPSO/JB-SYSTEMS-CALYPSO-2.webp",
+              "alt": "Effets colorés du JB SYSTEMS CALYPSO"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/JB-SYSTEMS-CALYPSO/JB-SYSTEMS-CALYPSO-3.webp",
+              "alt": "Jeu de lumière JB SYSTEMS CALYPSO sur scène"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/JB-SYSTEMS-CALYPSO/JB-SYSTEMS-CALYPSO-4.webp",
+              "alt": "Faisceaux multicolores du CALYPSO"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/JB-SYSTEMS-CALYPSO/JB-SYSTEMS-CALYPSO-5.webp",
+              "alt": "Rendu lumineux JB SYSTEMS CALYPSO en soirée"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/JB-SYSTEMS-CALYPSO/JB-SYSTEMS-CALYPSO-6.webp",
+              "alt": "Vue avant du JB SYSTEMS CALYPSO"
+            }
+          ]
+        },
+        {
+          "name": "J.COLLYNS MIRAGE",
+          "summary": "Effet LED panoramique à 36 lentilles offrant une large couverture lumineuse et des faisceaux multicolores spectaculaires.",
+          "details": [
+            {
+              "title": "Description complète",
+              "text": "Le J.COLLYNS MIRAGE est un effet de lumière novateur composé d’une demi-boule à 36 lentilles. Il projette des faisceaux multicolores qui s’entrecroisent et se déploient en éventail pour créer une atmosphère visuelle unique. Grâce à ses programmes automatiques et sa réactivité à la musique, il s’adapte parfaitement à tous types d’événements festifs."
+            },
+            {
+              "title": "Rendu",
+              "text": "Faisceaux puissants et colorés, en mouvement fluide et continu. L’effet produit des éventails lumineux qui s’ouvrent, se ferment et se croisent à différentes vitesses, offrant un rendu spectaculaire sur une grande surface."
+            },
+            {
+              "title": "Utilisation",
+              "text": "Idéal pour les DJ, clubs, mariages et événements nécessitant un effet visuel large et immersif. Léger, robuste et économe, le MIRAGE combine design original et performance lumineuse professionnelle."
+            }
+          ],
+          "specs": [
+            "Demi-boule à 36 lentilles multicolores",
+            "Effets : éventails de faisceaux croisés et dynamiques",
+            "Mode automatique et réactif à la musique",
+            "Très grande couverture lumineuse",
+            "Faible consommation et chauffe minimale"
+          ],
+          "video_embed": "https://www.youtube.com/embed/O_Vj1vZcicA?si=amPUb7JpWLD1qJFh",
+          "video_source": "Source vidéo : Timothy party lights - Jeu de lumière LED - J.COLLYNS MIRAGE",
+          "photos": [
+            {
+              "src": "/assets/img/webp/Catalogue/J.COLLYNS-MIRAGE/JCOLLYNS-MIRAGE-1.webp",
+              "alt": "J.COLLYNS MIRAGE en fonctionnement"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/J.COLLYNS-MIRAGE/JCOLLYNS-MIRAGE-2.webp",
+              "alt": "Faisceaux multicolores du J.COLLYNS MIRAGE"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/J.COLLYNS-MIRAGE/JCOLLYNS-MIRAGE-3.webp",
+              "alt": "Effet éventail du J.COLLYNS MIRAGE sur scène"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/J.COLLYNS-MIRAGE/JCOLLYNS-MIRAGE-4.webp",
+              "alt": "Rendu lumineux du J.COLLYNS MIRAGE en soirée"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/J.COLLYNS-MIRAGE/JCOLLYNS-MIRAGE-5.webp",
+              "alt": "Jeu de lumière J.COLLYNS MIRAGE multicolore"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/J.COLLYNS-MIRAGE/JCOLLYNS-MIRAGE-6.webp",
+              "alt": "Projection d’effets croisés du MIRAGE"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/J.COLLYNS-MIRAGE/JCOLLYNS-MIRAGE-7.webp",
+              "alt": "J.COLLYNS MIRAGE effet panoramique"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/J.COLLYNS-MIRAGE/JCOLLYNS-MIRAGE-8.webp",
+              "alt": "Jeu de lumière J.COLLYNS MIRAGE vue avant"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/J.COLLYNS-MIRAGE/JCOLLYNS-MIRAGE-9.webp",
+              "alt": "Rendu immersif du J.COLLYNS MIRAGE en soirée"
+            }
+          ]
+        },
+        {
+          "name": "NOVISTAR WASH LED RVBB",
+          "summary": "Projecteur wash à LED multicolore puissant, idéal pour les ambiances immersives et les effets de scène dynamiques.",
+          "details": [
+            {
+              "title": "Description complète",
+              "text": "Le NOVISTAR WASH LED RVBB est un projecteur à effet wash équipé de 288 LED rouges, vertes, bleues et blanches. Il produit des effets multicolores fluides et dynamiques, avec des transitions automatiques et une réactivité parfaite au rythme de la musique. Sa conception LED lui confère une faible consommation électrique et une chauffe quasi inexistante, tout en garantissant un éclairage puissant et homogène."
+            },
+            {
+              "title": "Rendu",
+              "text": "Éclairage de type wash avec effets rainbow et dégradés de couleurs. Les transitions sont douces ou rapides selon le mode, créant un rendu visuel captivant sur scène ou en piste. Idéal pour renforcer les ambiances lumineuses de fond ou colorer un espace de danse."
+            },
+            {
+              "title": "Utilisation",
+              "text": "Parfait pour les DJ mobiles, événements privés, mariages ou installations scéniques. Deux unités disponibles pour une couverture symétrique et un rendu équilibré sur scène ou en salle."
+            }
+          ],
+          "specs": [
+            "288 LED RVBB (rouges, vertes, bleues, blanches)",
+            "Effets : wash, rainbow et multicolores dynamiques",
+            "Mode automatique et réactif à la musique",
+            "Faible consommation et chauffe minimale",
+            "2 unités disponibles"
+          ],
+          "video_embed": "https://www.youtube.com/embed/tGzcsvNSL6k?si=8PgC_o7iYTvrk-6y",
+          "video_source": "Source vidéo : Timothy party lights - Jeu de lumière - NOVISTAR WASH LED RVBB (x2)",
+          "photos": [
+            {
+              "src": "/assets/img/webp/Catalogue/NOVISTAR-WASH-LED-RVBB/Novistar-wash-led-rvbb-1.webp",
+              "alt": "NOVISTAR WASH LED RVBB en fonctionnement"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/NOVISTAR-WASH-LED-RVBB/Novistar-wash-led-rvbb-2.webp",
+              "alt": "Effet wash multicolore du NOVISTAR WASH LED RVBB"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/NOVISTAR-WASH-LED-RVBB/Novistar-wash-led-rvbb-3.webp",
+              "alt": "Jeu de lumière NOVISTAR WASH LED RVBB sur scène"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/NOVISTAR-WASH-LED-RVBB/Novistar-wash-led-rvbb-4.webp",
+              "alt": "Effets rainbow du NOVISTAR WASH LED RVBB"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/NOVISTAR-WASH-LED-RVBB/Novistar-wash-led-rvbb-5.webp",
+              "alt": "Éclairage coloré NOVISTAR WASH LED RVBB"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/NOVISTAR-WASH-LED-RVBB/Novistar-wash-led-rvbb-6.webp",
+              "alt": "NOVISTAR WASH LED RVBB vue avant"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/NOVISTAR-WASH-LED-RVBB/Novistar-wash-led-rvbb-7.webp",
+              "alt": "Rendu lumineux du NOVISTAR WASH LED RVBB en soirée"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/NOVISTAR-WASH-LED-RVBB/Novistar-wash-led-rvbb-8.webp",
+              "alt": "Projecteur NOVISTAR WASH LED RVBB en installation"
+            }
+          ]
+        },
+        {
+          "name": "BoomTone DJ LightShow 5FX",
+          "summary": "Jeu de lumière 5-en-1 complet combinant laser, strobe, UV, LED wash et crystal ball pour un show spectaculaire.",
+          "details": [
+            {
+              "title": "Description complète",
+              "text": "Le BoomTone DJ LightShow 5FX réunit cinq effets lumineux dans un seul appareil compact : stroboscope, crystal ball, UV, laser et LED wash. Il transforme instantanément n’importe quelle salle en véritable show lumière. Ses programmes intégrés et sa réactivité au rythme de la musique garantissent un rendu dynamique et varié tout au long de la soirée."
+            },
+            {
+              "title": "Rendu",
+              "text": "Combinant des faisceaux laser précis, des flashes stroboscopiques, un effet wash coloré et des rayons UV puissants, le LightShow 5FX offre une expérience visuelle immersive. Les effets peuvent fonctionner simultanément ou en alternance pour créer un spectacle complet à lui seul."
+            },
+            {
+              "title": "Utilisation",
+              "text": "Idéal pour les DJ mobiles, anniversaires, mariages ou petites scènes. Simple à installer et à piloter, il s’adapte à toutes les ambiances. Son format tout-en-un permet de gagner du temps sans compromis sur l’impact visuel."
+            }
+          ],
+          "specs": [
+            "5 effets intégrés : Strobe, Crystal Ball, UV, Laser, LED Wash",
+            "Mode automatique et réactif à la musique",
+            "Contrôle simple via les programmes intégrés",
+            "Faible consommation et chauffe minimale",
+            "Marque : BoomTone DJ"
+          ],
+          "video_embed": "https://www.youtube.com/embed/fF4ta2wfDE4?si=IYYK2mhnoP-njARo",
+          "video_source": "Source vidéo : BoomTone DJ (YouTube, démonstration tierce)",
+          "photos": [
+            {
+              "src": "/assets/img/webp/Catalogue/BOOMTONE-DJ-LIGHTSHOW-5-FX/Boomtone-DJ-Lightshow-1.webp",
+              "alt": "BoomTone DJ LightShow 5FX en fonctionnement"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/BOOMTONE-DJ-LIGHTSHOW-5-FX/Boomtone-DJ-Lightshow-2.webp",
+              "alt": "Effets laser et LED wash du BoomTone DJ LightShow 5FX"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/BOOMTONE-DJ-LIGHTSHOW-5-FX/Boomtone-DJ-Lightshow-3.webp",
+              "alt": "Faisceaux multicolores du LightShow 5FX"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/BOOMTONE-DJ-LIGHTSHOW-5-FX/Boomtone-DJ-Lightshow-4.webp",
+              "alt": "BoomTone DJ LightShow 5FX en soirée"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/BOOMTONE-DJ-LIGHTSHOW-5-FX/Boomtone-DJ-Lightshow-5.webp",
+              "alt": "Jeu de lumière tout-en-un BoomTone DJ"
+            },
+            {
+              "src": "/assets/img/webp/Catalogue/BOOMTONE-DJ-LIGHTSHOW-5-FX/Boomtone-DJ-Lightshow-6.webp",
+              "alt": "Rendu lumineux complet du BoomTone DJ LightShow 5FX"
+            }
+          ]
+        },
+        {
+          "name": "Boule à facettes 30 cm",
+          "summary": "Boule disco 30 cm avec moteur électrique ou à piles pour des effets de lumière rétro et festifs.",
+          "details": [
+            {
+              "title": "Description complète",
+              "text": "Indispensable pour toute ambiance festive, la boule à facettes 30 cm renvoie la lumière en centaines de reflets scintillants. Montée sur un moteur électrique ou à piles, elle tourne lentement pour créer un effet classique et intemporel. Utilisée avec un projecteur ou un spot LED, elle transforme instantanément une salle en piste de danse."
+            },
+            {
+              "title": "Rendu",
+              "text": "Effet miroir à 360°, projections lumineuses multiples sur les murs et le plafond. Idéal pour ajouter une touche rétro, élégante ou club à toute soirée."
+            },
+            {
+              "title": "Utilisation",
+              "text": "Convient pour mariages, anniversaires, soirées privées, bars ou scènes. Simple à installer et à associer avec un projecteur LED ou une lumière blanche. Existe en version avec moteur secteur ou à piles."
+            }
+          ],
+          "specs": [
+            "Diamètre : 30 cm",
+            "Miroirs haute réflexion pour un effet lumineux intense",
+            "Rotation motorisée (électrique ou à piles)",
+            "Installation simple au plafond ou sur pied",
+            "Poids : 1,8 kg environ"
+          ],
+          "video_embed": "https://www.youtube.com/embed/VIDEO_BOULE_DISCO",
+          "photos": [
+            {
+              "src": "/assets/img/webp/Catalogue/BOULE-DISCO/placeholder.webp",
+              "alt": "Boule à facettes 30 cm sur moteur"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

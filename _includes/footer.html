@@ -1,0 +1,112 @@
+<!-- _includes/footer.html -->
+{% assign callout = site.footer.callout %}
+<footer class="site-footer">
+{% assign contact_form_embed = site.forms.contact_form_embed_url %}
+<section class="footer-cta">
+  <div class="container footer-cta__inner">
+    <div class="footer-cta__info">
+      <div class="footer-cta__content">
+        {% if callout.eyebrow %}<p class="eyebrow">{{ callout.eyebrow }}</p>{% endif %}
+        <h2>{{ callout.title }}</h2>
+        {% if callout.subtitle %}<p class="muted">{{ callout.subtitle }}</p>{% endif %}
+      </div>
+      <ul class="footer-cta__contact">
+        {% if site.contact.email %}
+        <li>
+          <span>Email</span>
+          <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
+        </li>
+        {% endif %}
+        {% if site.contact.phone %}
+        {% assign phone_href = site.contact.phone | replace: ' ', '' | replace: '.', '' %}
+        <li>
+          <span>Téléphone</span>
+          <a href="tel:{{ phone_href }}">{{ site.contact.phone }}</a>
+        </li>
+        {% endif %}
+      </ul>
+      {% if callout.button %}
+      {% assign callout_href = callout.button.url %}
+      {% unless callout.button.external %}
+      {% assign callout_href = callout.button.url | relative_url %}
+      {% endunless %}
+      <div class="footer-cta__actions">
+        <a class="button button--primary" href="{{ callout_href }}" {% if callout.button.external %}target="_blank" rel="noopener"{% endif %}>
+          {{ callout.button.label }}
+        </a>
+      </div>
+      {% endif %}
+    </div>
+    {% if contact_form_embed %}
+    <div class="footer-cta__form">
+      <iframe src="{{ contact_form_embed }}" title="Formulaire de contact" loading="lazy" allowfullscreen></iframe>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+  <div class="container footer-main">
+    <div class="footer-brand">
+      <div class="brand">
+        {% if site.logo_path %}
+        <span class="brand-logo" aria-hidden="true">
+          <img src="{{ site.logo_path | relative_url }}" alt="">
+        </span>
+        {% endif %}
+        <span class="brand-text">
+          <span class="brand-name">{{ site.brand }}</span>
+          {% if site.brand_tagline %}
+          <span class="brand-tagline">{{ site.brand_tagline }}</span>
+          {% endif %}
+        </span>
+      </div>
+      <p class="footer-description">{{ site.description }}</p>
+      <ul class="contact-list">
+        <li><span>Téléphone</span> <a href="tel:{{ site.contact.phone | replace: ' ', '' }}">{{ site.contact.phone }}</a></li>
+        <li><span>Email</span> <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>
+      </ul>
+      <p class="muted">{{ site.footer.info.hours }}</p>
+      <p class="muted">{{ site.footer.info.service_area }}</p>
+    </div>
+
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h3>Navigation</h3>
+        <ul>
+          {% for item in site.navigation %}
+          {% unless item.style == 'button' %}
+          <li>
+            <a href="{% if item.external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}">
+              {{ item.label }}
+            </a>
+          </li>
+          {% endunless %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Ressources</h3>
+        <ul>
+          {% for link in site.footer.links %}
+          <li><a href="{{ link.url | relative_url }}">{{ link.label }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>{{ site.footer.social_intro }}</h3>
+        <ul class="social-list">
+          {% if site.social.youtube %}<li><a href="{{ site.social.youtube }}" target="_blank" rel="noopener">YouTube</a></li>{% endif %}
+          {% if site.social.instagram %}<li><a href="{{ site.social.instagram }}" target="_blank" rel="noopener">Instagram</a></li>{% endif %}
+          {% if site.social.facebook %}<li><a href="{{ site.social.facebook }}" target="_blank" rel="noopener">Facebook</a></li>{% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom__inner">
+      <p>&copy; {{ "now" | date: "%Y" }} {{ site.brand }} — SIRET {{ site.contact.siret }}</p>
+      <p class="muted">Responsable publication : {{ site.contact.legal_contact }}</p>
+    </div>
+  </div>
+</footer>

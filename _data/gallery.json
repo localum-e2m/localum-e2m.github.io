@@ -1,0 +1,21 @@
+{
+  "intro": "Ambiances lumineuses, scénographie et installations sur mesure.",
+  "images": [
+    {
+      "src": "/assets/gal1.jpg",
+      "alt": "Installation lumière violette dans une salle voûtée"
+    },
+    {
+      "src": "/assets/gal2.jpg",
+      "alt": "DJ booth avec lyres et laser vert"
+    },
+    {
+      "src": "/assets/gal3.jpg",
+      "alt": "Dancefloor mariage avec projecteurs LED"
+    }
+  ],
+  "video_cta": {
+    "label": "Voir la chaîne YouTube",
+    "url": "https://youtube.com/@votre-chaine"
+  }
+}

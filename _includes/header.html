@@ -1,0 +1,46 @@
+<!-- _includes/header.html -->
+<header class="site-header" data-header>
+  <div class="container nav-container">
+    <a href="{{ '/' | relative_url }}" class="brand">
+      {% if site.logo_path %}
+      <span class="brand-logo" aria-hidden="true">
+        <img src="{{ site.logo_path | relative_url }}" loading="lazy" alt="">
+      </span>
+      {% endif %}
+      <span class="brand-text">
+        <span class="brand-name">{{ site.brand }}</span>
+        {% if site.brand_tagline %}
+        <span class="brand-tagline">{{ site.brand_tagline }}</span>
+        {% endif %}
+      </span>
+    </a>
+    <div class="nav-right">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-action="toggle-nav">
+        <span class="sr-only">Afficher/masquer la navigation</span>
+        <span class="nav-toggle__icon" aria-hidden="true">
+          <span class="nav-toggle__ring"></span>
+          <span class="nav-toggle__line nav-toggle__line--top"></span>
+          <span class="nav-toggle__line nav-toggle__line--middle"></span>
+          <span class="nav-toggle__line nav-toggle__line--bottom"></span>
+        </span>
+      </button>
+      <nav id="primary-nav" class="site-nav" data-nav aria-label="Navigation principale">
+        <ul>
+          {% for item in site.navigation %}
+          {% assign is_button = item.style == 'button' %}
+          <li>
+            <a class="nav-link{% if is_button %} nav-link--button{% endif %}"
+               href="{% if item.external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"
+               {% if item.external %}target="_blank" rel="noopener"{% endif %}>
+              {{ item.label }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Basculer clair/sombre" data-action="toggle-theme">
+        <span class="theme-toggle__icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+</header>

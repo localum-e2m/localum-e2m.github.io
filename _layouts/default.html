@@ -1,0 +1,17 @@
+<!-- _layouts/default.html -->
+<!doctype html>
+<html lang="fr">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="page-shell">
+      {% include status-banner.html %}
+      {% include header.html %}
+      <main id="content" class="page-content">
+        {{ content }}
+      </main>
+      {% include footer.html %}
+    </div>
+  </body>
+</html>
