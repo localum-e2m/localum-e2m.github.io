@@ -1,4 +1,4 @@
-﻿# _config.yml
+# _config.yml
 title: "LOCALUM - E2M"
 brand: "LOCALUM - E2M"
 brand_tagline: "Location sono & jeux de lumière événementiels en Gironde"
@@ -158,7 +158,7 @@ home:
       - title: "Choisissez votre pack"
         description: "Réservez un pack existant ou demandez une combinaison sur mesure."
       - title: "Livraison & installation"
-      description: "Zones tarifaires transparentes, mise en place sur site et reprise après l'événement."
+        description: "Zones tarifaires transparentes, mise en place sur site et reprise après l'événement."
       - title: "Profitez & restituez"
         description: "Contact direct pendant l’événement, reprise le lendemain ou le lundi."
   testimonials:
