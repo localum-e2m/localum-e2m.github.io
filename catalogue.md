@@ -144,9 +144,9 @@ description: Catalogue de matériel audio et lumière disponible à la location.
                         type="button"
                         data-action="toggle-details"
                         data-target="{{ detail_id }}"
-                        data-label-open="Voir les dǸtails"
-                        data-label-close="Masquer les dǸtails"
-                        aria-expanded="false">Voir les dǸtails</button>
+                        data-label-open="Voir les détails"
+                        data-label-close="Masquer les détails"
+                        aria-expanded="false">Voir les détails</button>
                 {% endif %}
                 {% if has_photos %}
                 <button class="button button--ghost" type="button"
@@ -158,7 +158,7 @@ description: Catalogue de matériel audio et lumière disponible à la location.
                         data-showcase-photos="{{ showcase.photos | default: empty_array | jsonify | escape }}">Voir la galerie</button>
                 {% endif %}
                 {% if showcase.video_embed %}
-                <a class="button button--primary open-video" href="{{ showcase.video_embed }}">Voir la vidǸo</a>
+                <a class="button button--primary open-video" href="{{ showcase.video_embed }}">Voir la vidéo</a>
                 {% endif %}
               {%- endcapture -%}
               {%- assign card_actions_markup = card_actions_markup | strip -%}
