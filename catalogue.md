@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Catalogue
 description: Catalogue de matériel audio et lumière disponible à la location.

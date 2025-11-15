@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Packs
 description: Packs sono et lumière prêts à l’emploi pour soirées, mariages et événements.
