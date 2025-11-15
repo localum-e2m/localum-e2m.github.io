@@ -1,7 +1,7 @@
----
+﻿---
 layout: default
 title: Catalogue
-description: Catalogue de matériel audio et lumière disponible à la location.
+description: Catalogue de matriel audio, sonorisation mobile et jeux de lumiére disponibles é la location en Gironde.
 ---
 
 {% assign catalogue = site.data.catalogue %}
@@ -271,4 +271,9 @@ description: Catalogue de matériel audio et lumière disponible à la location.
     </div>
   </div>
 </div>
+
+
+
+
+
 

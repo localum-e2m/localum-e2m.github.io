@@ -1,8 +1,8 @@
----
+﻿---
 layout: default
 title: Accueil
 permalink: /
-description: Location de sonorisation et jeux de lumière en Gironde. Packs prêts à l'emploi, livraison par zones et installation sur demande.
+description: Location sono, location jeux de lumiére et packs DJ complets en Gironde avec livraison par zones, installation et assistance pour vos soires.
 ---
 
 {% assign hero = site.branding.hero %}
@@ -102,3 +102,8 @@ description: Location de sonorisation et jeux de lumière en Gironde. Packs prê
   </div>
 </section>
 {% endif %}
+
+
+
+
+

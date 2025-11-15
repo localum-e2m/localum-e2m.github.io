@@ -1,7 +1,7 @@
----
+﻿---
 layout: default
 title: Packs
-description: Packs sono et lumière prêts à l’emploi pour soirées, mariages et événements.
+description: Packs sono et jeux de lumiére préts é l'emploi pour soires, mariages et vnements en Gironde.
 ---
 
 <section class="section">
@@ -119,3 +119,8 @@ description: Packs sono et lumière prêts à l’emploi pour soirées, mariages
     </article>
   </div>
 </section>
+
+
+
+
+

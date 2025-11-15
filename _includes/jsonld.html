@@ -1,4 +1,4 @@
-<!-- _includes/jsonld.html -->
+﻿<!-- _includes/jsonld.html -->
 {% assign same_as = "" | split: "" %}
 {% if site.social.youtube %}{% assign same_as = same_as | push: site.social.youtube %}{% endif %}
 {% if site.social.instagram %}{% assign same_as = same_as | push: site.social.instagram %}{% endif %}
@@ -25,9 +25,8 @@
     "@type": "GeoCoordinates",
     "latitude": {{ site.delivery.center_lat | default: 0 }},
     "longitude": {{ site.delivery.center_lng | default: 0 }}
-  },
-  "areaServed": {{ site.seo.city_targets | jsonify }},
-  "priceRange": "€€"{% if same_as.size > 0 %},
+  }{% if same_as.size > 0 %},
   "sameAs": {{ same_as | jsonify }}{% endif %}
 }
 </script>
+

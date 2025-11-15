@@ -1,7 +1,7 @@
----
+﻿---
 layout: default
 title: Services
-description: Location sono & lumières avec livraison, installation sur demande et assistance personnalisée en Gironde.
+description: Services de location sono et jeux de lumiére avec livraison par zones, installation sur demande et assistance personnalise en Gironde.
 ---
 
 <section class="section">
@@ -97,4 +97,9 @@ description: Location sono & lumières avec livraison, installation sur demande 
     </div>
   </div>
 </section>
+
+
+
+
+
 

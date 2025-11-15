@@ -1,7 +1,7 @@
----
+﻿---
 layout: default
 title: Contact
-description: Contact, adresse et carte des zones desservies.
+description: Contactez LOCALUM - E2M pour vos devis de location sono, jeux de lumiére et livraison en Gironde.
 ---
 
 {% assign last_tier = site.delivery.tiers | last %}
@@ -95,3 +95,8 @@ description: Contact, adresse et carte des zones desservies.
     </div>
   </div>
 </section>
+
+
+
+
+

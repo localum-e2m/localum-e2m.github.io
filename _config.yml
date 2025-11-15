@@ -1,9 +1,9 @@
 ﻿# _config.yml
 title: "LOCALUM - E2M"
 brand: "LOCALUM - E2M"
-brand_tagline: "Location sono & lumières événementielles en Gironde"
+brand_tagline: "Location sono & jeux de lumière événementiels en Gironde"
 logo_path: "/assets/img/webp/logo.webp"
-description: "Location de jeux de lumière, sonorisation et packs DJ avec accompagnement personnalisé en Gironde."
+description: "Location de sonorisation, packs DJ et jeux de lumière avec livraison, installation et assistance pour vos soirées en Gironde."
 url: "https://localum-e2m.fr"
 baseurl: ""
 owner_name: "Timothy"
@@ -109,10 +109,10 @@ ui:
 
 branding:
   hero:
-    eyebrow: "Location sono & lumières"
+    eyebrow: "Location sono & jeux de lumière"
     highlight_badge: "Pour une soirée impeccable"
     title: "Illuminez vos événements sans stress"
-    subtitle: "Location de sonorisation et/ou de jeux de lumières pour une soirée réussie. Lancez votre playlist et enflammez votre dancefloor !"
+    subtitle: "Location de sonorisation, packs DJ et jeux de lumière prêts à l'emploi en Gironde. Je livre, installe et sécurise votre piste de danse."
     image: "/assets/img/webp/hero.webp"
     ctas:
       primary:
@@ -129,19 +129,19 @@ branding:
         external: false
   features:
     - title: "Matériel pro calibré"
-      description: "Enceintes, contrôleurs DJ et lumières révisés avant chaque sortie."
+      description: "Enceintes, contrôleurs DJ et éclairages LED vérifiés avant chaque sortie."
     - title: "Livraison & installation"
-      description: "Zones tarifaires transparentes, mise en place sur site et reprise après l’événement."
+      description: "Zones tarifaires transparentes, mise en place sur site et reprise après l'événement."
     - title: "Interlocuteur unique"
       description: "Un seul contact du devis au démontage, assistance directe par téléphone ou sur place."
   differentiators:
     title: "Votre ambiance, mon savoir-faire"
     items:
       - icon: "🪩"
-        title: "Pack personnalisable"
+        title: "Packs personnalisables"
         text: "Modulable selon vos envies et votre évènement."
       - icon: "🚚"
-        title: "Livraison & installation possible"
+        title: "Livraison & installation possibles"
         text: "Je me déplace, j'installe et je récupère le matériel pour un service sans contraintes."
       - icon: "💡"
         title: "Jeux de lumière à faible consommation"
@@ -158,7 +158,7 @@ home:
       - title: "Choisissez votre pack"
         description: "Réservez un pack existant ou demandez une combinaison sur mesure."
       - title: "Livraison & installation"
-        description: "Je livre, j’installe et je teste le matériel avec vous."
+      description: "Zones tarifaires transparentes, mise en place sur site et reprise après l'événement."
       - title: "Profitez & restituez"
         description: "Contact direct pendant l’événement, reprise le lendemain ou le lundi."
   testimonials:
@@ -190,7 +190,7 @@ services_page:
 
 footer:
   callout:
-    eyebrow: "Prêt à allumer votre soirée ?"
+    eyebrow: "Location sono & jeux de lumière"
     title: "Réservez votre pack sono & lumière"
     subtitle: ""
     button:
@@ -219,11 +219,15 @@ legal:
 seo:
   keywords:
     - "location sono Gironde"
-    - "location lumière événementielle"
-    - "DJ Daignac"
-    - "éclairage mariage Bordeaux"
-    - "sonorisation soirée privée"
+    - "location sono Bordeaux"
+    - "location sono Entre-Deux-Mers"
+    - "location jeux de lumière Gironde"
+    - "location jeux de lumière soirée"
+    - "location sonorisation mariage"
+    - "location sonorisation anniversaire"
     - "pack sono lumière clé en main"
+    - "location matériel DJ Gironde"
+    - "location éclairage soirée privée"
     - "installation lumière DJ"
     - "location lyres LED Gironde"
   city_targets: ["Daignac", "Bordeaux", "Libourne", "Entre-Deux-Mers", "Gironde", "Nouvelle-Aquitaine"]
@@ -240,3 +244,8 @@ exclude:
   - README.md
 
 permalink: /:title/
+
+
+
+
+
