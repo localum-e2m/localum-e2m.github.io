@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Catalogue
 description: Catalogue de matriel audio, sonorisation mobile et jeux de lumiére disponibles é la location en Gironde.
