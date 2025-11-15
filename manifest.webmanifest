@@ -1,0 +1,22 @@
+{
+  "name": "LOCALUM - E2M",
+  "short_name": "LOCALUM",
+  "description": "Location sono, jeux de lumière et packs DJ complets avec livraison par zones, installation et assistance en Gironde.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#05060d",
+  "theme_color": "#5b3ff6",
+  "icons": [
+    {
+      "src": "/assets/img/webp/logo_192.webp",
+      "sizes": "192x108",
+      "type": "image/webp"
+    },
+    {
+      "src": "/assets/img/webp/logo_512.webp",
+      "sizes": "512x287",
+      "type": "image/webp"
+    }
+  ]
+}
