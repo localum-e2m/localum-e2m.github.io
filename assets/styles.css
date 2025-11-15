@@ -716,11 +716,13 @@ a:focus {
 
 .map-panel {
   position: sticky;
-  top: clamp(4.5rem, 6vw, 6.5rem);
-  align-self: start;
+  top: auto;
+  bottom: clamp(2rem, 6vw, 3rem);
+  align-self: stretch;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: auto;
+  z-index: 1;
 }
 
 .map-panel .map-shell {
@@ -2674,8 +2676,9 @@ tbody tr:hover {
   gap: 0.65rem;
   flex-wrap: wrap;
   justify-content: flex-start;
-  overflow-x: auto;
-  padding-bottom: 0.2rem;
+  width: 100%;
+  overflow: visible;
+  padding-bottom: 0;
   scrollbar-width: none;
 }
 .cat-toolbar {
@@ -3017,6 +3020,15 @@ html[data-theme="light"] .tag {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+.card-actions--mobile {
+  display: none;
+  margin-top: 0;
+}
+
+.card-actions--desktop {
+  padding: 0 1.25rem 1.35rem;
 }
 .card-actions .button {
   flex: 1 1 100%;
@@ -3699,14 +3711,15 @@ html[data-theme="light"] .tag {
   }
 
   .filters {
-    flex-wrap: nowrap;
-    gap: 0.55rem;
-    scroll-snap-type: x proximity;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    scroll-snap-type: none;
   }
 
   .filters .chip {
-    flex: 0 0 auto;
-    scroll-snap-align: start;
+    flex: 1 1 calc(50% - 0.65rem);
+    min-width: calc(50% - 0.65rem);
+    scroll-snap-align: unset;
     padding: 0.55rem 1.1rem;
     font-size: 0.95rem;
   }
@@ -3756,6 +3769,17 @@ html[data-theme="light"] .tag {
   .pack-card__footer {
     flex-direction: column;
     gap: 0.75rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .card-actions--mobile {
+    display: flex;
+    gap: 0.6rem;
+  }
+
+  .card-actions--desktop {
+    display: none;
   }
 }
 

@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Catalogue
 description: Catalogue de matériel audio et lumière disponible à la location.
@@ -138,6 +138,30 @@ description: Catalogue de matériel audio et lumière disponible à la location.
                 {%- endif -%}
               {%- endcapture -%}
               {% assign detail_id = 'details-' | append: cat_slug | append: '-' | append: showcase.name | slugify %}
+              {%- capture card_actions_markup -%}
+                {% if showcase.details %}
+                <button class="button button--ghost"
+                        type="button"
+                        data-action="toggle-details"
+                        data-target="{{ detail_id }}"
+                        data-label-open="Voir les dǸtails"
+                        data-label-close="Masquer les dǸtails"
+                        aria-expanded="false">Voir les dǸtails</button>
+                {% endif %}
+                {% if has_photos %}
+                <button class="button button--ghost" type="button"
+                        data-action="open-showcase"
+                        data-showcase-title="{{ showcase.name | escape }}"
+                        data-showcase-summary="{{ showcase.summary | default: '' | escape }}"
+                        data-showcase-details="{{ showcase.details | default: empty_array | jsonify | escape }}"
+                        data-showcase-specs="{{ showcase.specs | default: empty_array | jsonify | escape }}"
+                        data-showcase-photos="{{ showcase.photos | default: empty_array | jsonify | escape }}">Voir la galerie</button>
+                {% endif %}
+                {% if showcase.video_embed %}
+                <a class="button button--primary open-video" href="{{ showcase.video_embed }}">Voir la vidǸo</a>
+                {% endif %}
+              {%- endcapture -%}
+              {%- assign card_actions_markup = card_actions_markup | strip -%}
               <article class="card" data-category="{{ cat_slug }}" data-title="{{ showcase.name | escape }}" data-model="{{ showcase.summary | default: category.name | escape }}" data-tags="{{ searchable | strip | strip_newlines | escape }}">
                 <div class="card-media">
                   {% if showcase.video_embed %}
@@ -181,6 +205,11 @@ description: Catalogue de matériel audio et lumière disponible à la location.
                   {% if showcase.summary %}
                   <p class="card-summary">{{ showcase.summary }}</p>
                   {% endif %}
+                  {% unless card_actions_markup == '' %}
+                  <div class="card-actions card-actions--mobile">
+                    {{ card_actions_markup }}
+                  </div>
+                  {% endunless %}
                   {% if showcase.specs %}
                   <div class="card-specs">
                     {% for spec in showcase.specs %}
@@ -201,29 +230,11 @@ description: Catalogue de matériel audio et lumière disponible à la location.
                   </div>
                   {% endif %}
                 </div>
-                <div class="card-actions">
-                    {% if showcase.details %}
-                    <button class="button button--ghost"
-                            type="button"
-                            data-action="toggle-details"
-                            data-target="{{ detail_id }}"
-                            data-label-open="Voir les détails"
-                            data-label-close="Masquer les détails"
-                            aria-expanded="false">Voir les détails</button>
-                    {% endif %}
-                    {% if has_photos %}
-                    <button class="button button--ghost" type="button"
-                            data-action="open-showcase"
-                            data-showcase-title="{{ showcase.name | escape }}"
-                            data-showcase-summary="{{ showcase.summary | default: '' | escape }}"
-                            data-showcase-details="{{ showcase.details | default: empty_array | jsonify | escape }}"
-                            data-showcase-specs="{{ showcase.specs | default: empty_array | jsonify | escape }}"
-                            data-showcase-photos="{{ showcase.photos | default: empty_array | jsonify | escape }}">Voir la galerie</button>
-                    {% endif %}
-                    {% if showcase.video_embed %}
-                    <a class="button button--primary open-video" href="{{ showcase.video_embed }}">Voir la vidéo</a>
-                    {% endif %}
-                  </div>
+                {% unless card_actions_markup == '' %}
+                <div class="card-actions card-actions--desktop">
+                  {{ card_actions_markup }}
+                </div>
+                {% endunless %}
                   {% if showcase.video_source %}
                   <p class="card-video-source">{{ showcase.video_source }}</p>
                   {% endif %}
@@ -260,3 +271,4 @@ description: Catalogue de matériel audio et lumière disponible à la location.
     </div>
   </div>
 </div>
+

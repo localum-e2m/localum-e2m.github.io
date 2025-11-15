@@ -7,7 +7,7 @@ description: Contact, adresse et carte des zones desservies.
 {% assign last_tier = site.delivery.tiers | last %}
 
 <section class="section">
-  <div class="container split-grid">
+  <div class="container">
     <div>
       <div class="section-header">
         <h1>Contact & réservation</h1>
@@ -48,6 +48,7 @@ description: Contact, adresse et carte des zones desservies.
       </div>
       {% endif %}
     </div>
+  </div>
 </section>
 
 <section class="section">

@@ -61,7 +61,7 @@ delivery:
   install_price_from_eur: 49
 
 forms:
-  booking_google_form_url: "https://forms.gle/votre-form"
+  booking_google_form_url: "https://forms.gle/9Uj11gUL9mNcdGsS8"
   contact_form_embed_url: "https://docs.google.com/forms/d/e/votre-form-id/viewform?embedded=true"
 
 pricing:
@@ -195,7 +195,7 @@ footer:
     subtitle: ""
     button:
       label: "Contactez moi"
-      url: "https://forms.gle/votre-form"
+      url: "https://forms.gle/9Uj11gUL9mNcdGsS8"
   info:
     hours: "Lun - Sam : 9 h à 19 h"
     service_area: "Livraison jusqu’à 50 km autour de notre dépôt"
