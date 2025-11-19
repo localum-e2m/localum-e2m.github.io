@@ -1,9 +1,9 @@
 # _config.yml
 title: "LOCALUM - E2M"
 brand: "LOCALUM - E2M"
-brand_tagline: "Location sono & jeux de lumière événementiels en Gironde"
+brand_tagline: "Location sono & jeux de lumière événementiels entre deux mers"
 logo_path: "/assets/img/webp/logo.webp"
-description: "Location de sonorisation, packs DJ et jeux de lumière avec livraison, installation et assistance pour vos soirées en Gironde."
+description: "Location de sonorisation, packs DJ et jeux de lumière avec livraison, installation et assistance pour vos soirées entre deux mers."
 url: "https://localum-e2m.fr"
 baseurl: ""
 owner_name: "Timothy"
@@ -112,7 +112,7 @@ branding:
     eyebrow: "Location sono & jeux de lumière"
     highlight_badge: "Pour une soirée impeccable"
     title: "Illuminez vos événements sans stress"
-    subtitle: "Location de sonorisation, packs DJ et jeux de lumière prêts à l'emploi en Gironde. Je livre, installe et sécurise votre piste de danse."
+    subtitle: "Location de sonorisation, packs DJ et jeux de lumière prêts à l'emploi dans l'entre deux mers. Je livre, installe et sécurise votre piste de danse."
     image: "/assets/img/webp/hero.webp"
     ctas:
       primary:
@@ -211,18 +211,18 @@ legal:
 
 seo:
   keywords:
-    - "location sono Gironde"
+    - "location sono entre deux mers"
     - "location sono Bordeaux"
     - "location sono Entre-Deux-Mers"
-    - "location jeux de lumière Gironde"
+    - "location jeux de lumière entre deux mers"
     - "location jeux de lumière soirée"
     - "location sonorisation mariage"
     - "location sonorisation anniversaire"
     - "pack sono lumière clé en main"
-    - "location matériel DJ Gironde"
+    - "location matériel DJ entre deux mers"
     - "location éclairage soirée privée"
     - "installation lumière DJ"
-    - "location lyres LED Gironde"
+    - "location lyres LED entre deux mers"
   city_targets: ["Daignac", "Bordeaux", "Libourne", "Entre-Deux-Mers", "Gironde", "Nouvelle-Aquitaine"]
   open_graph_image: "/assets/og.jpg"
   enable_jsonld: true

@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Services
-description: Services de location sono et jeux de lumiére avec livraison par zones, installation sur demande et assistance personnalise en Gironde.
+description: Services de location sono et jeux de lumiére avec livraison par zones, installation sur demande et assistance personnalise dans l'entre deux mers.
 ---
 
 <section class="section">
   <div class="container">
     <div class="section-header">
       <h1>Services sur mesure pour vos événements</h1>
-      <p class="muted">Je suis {{ site.owner_name }}, interlocuteur unique pour la sono et la lumière de vos soirées en Gironde.</p>
+      <p class="muted">Je suis {{ site.owner_name }}, interlocuteur unique pour la sono et la lumière de vos soirées dans l'entre deux mers.</p>
     </div>
     <p>Je prépare le pack choisi, je fournis tous les câbles et je reste joignable le jour J. Vous gérez la playlist, je sécurise la technique.</p>
     <div class="section-actions" style="margin: 2.5rem 0; gap: 1.25rem;">

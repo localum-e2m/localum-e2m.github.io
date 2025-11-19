@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Packs
-description: Packs sono et jeux de lumiére préts é l'emploi pour soires, mariages et vnements en Gironde.
+description: Packs sono et jeux de lumiére préts é l'emploi pour soires, mariages et vnements dans l'entre deux mers.
 ---
 
 <section class="section">
