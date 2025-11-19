@@ -4,9 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.brand }}</title>
 <meta name="description" content="{{ page.description | default: site.description }}">
-<meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="{{ theme.light.background | default: '#ffffff' }}" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="{{ theme.dark.background | default: '#111111' }}" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="{{ theme.dark.background | default: '#05060d' }}">
 <link rel="icon" href="{{ site.logo_path | relative_url }}">
 <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}" crossorigin="anonymous">
 {% if site.ui.fonts.google %}
@@ -14,53 +13,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{{ site.ui.fonts.google }}">
 {% endif %}
-<script>
-(function(){
-  var storageKey = 'theme-preference';
-  var defaultSetting = '{{ theme.default | default: "system" }}';
-  try {
-    var stored = localStorage.getItem(storageKey);
-    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    var theme = stored || defaultSetting;
-    if(theme === 'system') {
-      theme = prefersDark ? 'dark' : 'light';
-    }
-    if(theme !== 'light' && theme !== 'dark') {
-      theme = prefersDark ? 'dark' : 'light';
-    }
-    document.documentElement.setAttribute('data-theme', theme);
-  } catch (err) {
-    document.documentElement.setAttribute('data-theme', 'light');
-  }
-})();
-</script>
 <style>
 :root {
-  --color-bg: {{ theme.light.background | default: '#ffffff' }};
-  --color-surface: {{ theme.light.surface | default: '#ffffff' }};
-  --color-elevated: {{ theme.light.elevated | default: '#f5f5f5' }};
-  --color-text: {{ theme.light.text | default: '#111111' }};
-  --color-muted: {{ theme.light.text_muted | default: '#6b6b6b' }};
-  --color-accent: {{ theme.light.accent | default: '#6756ff' }};
-  --color-accent-soft: {{ theme.light.accent_soft | default: 'rgba(103, 86, 255, 0.12)' }};
-  --color-border: {{ theme.light.border | default: 'rgba(0, 0, 0, 0.08)' }};
-  --shadow-lg: {{ theme.light.shadow | default: '0 16px 40px rgba(15, 20, 38, 0.12)' }};
-  --gradient-brand: {{ theme.light.gradient | default: 'linear-gradient(135deg, rgba(101, 86, 255, 0.7) 0%, rgba(232, 73, 155, 0.7) 100%)' }};
-  --circle-primary: {{ theme.light.bubble_primary | default: 'rgba(103, 86, 255, 0.12)' }};
-  --circle-secondary: {{ theme.light.bubble_secondary | default: 'rgba(232, 73, 155, 0.22)' }};
-  --circle-tertiary: {{ theme.light.bubble_tertiary | default: 'rgba(103, 86, 255, 0.18)' }};
-  --hero-gradient: linear-gradient(130deg, rgba(24, 27, 46, 0.94) 0%, rgba(103, 86, 255, 0.72) 55%, rgba(232, 73, 155, 0.58) 100%);
-  --glass-overlay: {{ theme.glass | default: 'rgba(255, 255, 255, 0.08)' }};
-  --font-primary: {{ site.ui.fonts.primary | default: "system-ui, sans-serif" }};
-  --font-display: {{ site.ui.fonts.display | default: "system-ui, sans-serif" }};
-  --layout-max-width: 1160px;
-  --page-gutter: clamp(2rem, 6vw, 4rem);
-  --radius-lg: 28px;
-  --radius-md: 18px;
-  --radius-sm: 12px;
-  --transition: 260ms ease;
-}
-[data-theme="dark"] {
   --color-bg: {{ theme.dark.background | default: '#05060d' }};
   --color-surface: {{ theme.dark.surface | default: '#10152b' }};
   --color-elevated: {{ theme.dark.elevated | default: '#161d39' }};
@@ -75,6 +29,15 @@
   --circle-secondary: {{ theme.dark.bubble_secondary | default: 'rgba(228, 60, 149, 0.28)' }};
   --circle-tertiary: {{ theme.dark.bubble_tertiary | default: 'rgba(86, 76, 255, 0.32)' }};
   --hero-gradient: linear-gradient(130deg, rgba(5, 6, 13, 0.95) 0%, rgba(86, 76, 255, 0.7) 55%, rgba(228, 60, 149, 0.55) 100%);
+  --glass-overlay: {{ theme.glass | default: 'rgba(255, 255, 255, 0.08)' }};
+  --font-primary: {{ site.ui.fonts.primary | default: "system-ui, sans-serif" }};
+  --font-display: {{ site.ui.fonts.display | default: "system-ui, sans-serif" }};
+  --layout-max-width: 1160px;
+  --page-gutter: clamp(2rem, 6vw, 4rem);
+  --radius-lg: 28px;
+  --radius-md: 18px;
+  --radius-sm: 12px;
+  --transition: 260ms ease;
 }
 </style>
 <link rel="preload" href="{{ '/assets/styles.css' | relative_url }}" as="style">

@@ -72,21 +72,7 @@ pricing:
 
 ui:
   theme:
-    default: "system"
-    light:
-      background: "#fdfcff"
-      surface: "#ffffff"
-      elevated: "#f7f7ff"
-      text: "#1b1d2c"
-      text_muted: "#555b75"
-      accent: "#5b3ff6"
-      accent_soft: "rgba(91, 63, 246, 0.15)"
-      border: "rgba(27, 29, 44, 0.12)"
-      shadow: "0 22px 44px rgba(27, 29, 44, 0.12)"
-      gradient: "linear-gradient(130deg, rgba(91, 63, 246, 0.88) 0%, rgba(230, 92, 162, 0.78) 48%, rgba(255, 190, 92, 0.72) 100%)"
-      bubble_primary: "rgba(91, 63, 246, 0.12)"
-      bubble_secondary: "rgba(230, 92, 162, 0.18)"
-      bubble_tertiary: "rgba(79, 209, 197, 0.16)"
+    default: "dark"
     dark:
       background: "#05060d"
       surface: "#0f1327"
@@ -234,7 +220,6 @@ exclude:
   - README.md
 
 permalink: /:title/
-
 
 
 

@@ -258,7 +258,6 @@ a:focus {
   gap: 1rem;
 }
 
-.theme-toggle,
 .nav-toggle {
   position: relative;
   width: 48px;
@@ -286,7 +285,6 @@ a:focus {
   transition: opacity var(--transition);
 }
 
-.theme-toggle:hover,
 .nav-toggle:hover {
   transform: translateY(-2px);
   border-color: rgba(126, 242, 204, 0.45);
@@ -296,15 +294,6 @@ a:focus {
 .nav-toggle:hover::after,
 .nav-toggle.is-open::after {
   opacity: 1;
-}
-
-.theme-toggle__icon {
-  position: relative;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: var(--color-text);
-  mask: radial-gradient(circle at 30% 30%, transparent 55%, black 56%);
 }
 
 .nav-toggle__icon {
@@ -2817,11 +2806,6 @@ tbody tr:hover {
     letter-spacing: 0.18em;
   }
 
-  html[data-theme="light"] .catalogue-category__divider span {
-    background: rgba(91, 124, 250, 0.1);
-    border-color: rgba(91, 124, 250, 0.2);
-  }
-
   #catGrid > .catalogue-category__divider:first-of-type {
     margin-top: 0;
   }
@@ -2979,10 +2963,6 @@ tbody tr:hover {
     line-height: 1.4;
     padding: 0.45rem 0.75rem;
   }
-html[data-theme="light"] .tag {
-  background: rgba(91, 124, 250, 0.12);
-  border-color: rgba(91, 124, 250, 0.24);
-}
 .card-details {
   display: grid;
   gap: 0.65rem;
@@ -3878,12 +3858,6 @@ html[data-theme="light"] .tag {
   border-top: 1px solid rgba(255,255,255,.08);
   border-bottom: 1px solid rgba(255,255,255,.05);
 }
-html[data-theme="light"] .section--subtle{
-  background: linear-gradient(180deg, rgba(32,37,64,.04), rgba(255,255,255,0));
-  border-top: 1px solid rgba(32,37,64,.06);
-  border-bottom: 1px solid rgba(32,37,64,.04);
-}
-
 .catalogue-list{
   list-style: none;
   margin: 0;
