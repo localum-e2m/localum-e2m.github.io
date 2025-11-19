@@ -156,20 +156,13 @@ home:
     title: "Comment ça marche"
     steps:
       - title: "Choisissez votre pack"
-        description: "Réservez un pack existant ou demandez une combinaison sur mesure."
+        description: "Choisissez un pack existant ou demandez une combinaison sur mesure."
+      - title: "Reservation du matériel"
+        description: "Contact et devis personnalisés et etablissement d'un contrat pour valider la réservation"
       - title: "Livraison & installation"
         description: "Zones tarifaires transparentes, mise en place sur site et reprise après l'événement."
       - title: "Profitez & restituez"
         description: "Contact direct pendant l’événement, reprise le lendemain ou le lundi."
-  testimonials:
-    title: "Ils me font confiance"
-    items:
-      - quote: "Installation parfaite jusqu’à ce que j’active, par accident, le mode ‘Éveil Cosmique’. Les projecteurs ont ouvert un portail dimensionnel et un pigeon a donné une conférence TED."
-      - author: "Kim Bourlet – Mariage à Bordeaux"
-
-      - quote: "Matériel si simple que je l’ai laissé gérer l’événement seul pendant que j’entrais en trance. À mon retour, les 200 invités avaient élu la machine maire de Libourne."
-      - author: "Kim Bourlet – NightRun à Libourne"
-
 
 
 services_page:
