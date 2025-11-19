@@ -1,50 +1,6 @@
 <!-- _includes/footer.html -->
-{% assign callout = site.footer.callout %}
 <footer class="site-footer">
-{% assign contact_form_embed = site.forms.booking_google_form_url %}
-<section class="footer-cta">
-  <div class="container footer-cta__inner">
-    <div class="footer-cta__info">
-      <div class="footer-cta__content">
-        {% if callout.eyebrow %}<p class="eyebrow">{{ callout.eyebrow }}</p>{% endif %}
-        <h2>{{ callout.title }}</h2>
-        {% if callout.subtitle %}<p class="muted">{{ callout.subtitle }}</p>{% endif %}
-      </div>
-      <ul class="footer-cta__contact">
-        {% if site.contact.email %}
-        <li>
-          <span>Email</span>
-          <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
-        </li>
-        {% endif %}
-        {% if site.contact.phone %}
-        {% assign phone_href = site.contact.phone | replace: ' ', '' | replace: '.', '' %}
-        <li>
-          <span>Téléphone</span>
-          <a href="tel:{{ phone_href }}">{{ site.contact.phone }}</a>
-        </li>
-        {% endif %}
-      </ul>
-      {% if callout.button %}
-      {% assign callout_href = callout.button.url %}
-      {% unless callout.button.external %}
-      {% assign callout_href = callout.button.url | relative_url %}
-      {% endunless %}
-      <div class="footer-cta__actions">
-        <a class="button button--primary" href="{{ callout_href }}" {% if callout.button.external %}target="_blank" rel="noopener"{% endif %}>
-          {{ callout.button.label }}
-        </a>
-      </div>
-      {% endif %}
-    </div>
-    {% if contact_form_embed %}
-    <div class="footer-cta__form">
-      <iframe src="{{ contact_form_embed }}" title="Formulaire de contact" loading="lazy" allowfullscreen></iframe>
-    </div>
-    {% endif %}
-  </div>
-</section>
-
+{% include contact-cta.html %}
   <div class="container footer-main">
     <div class="footer-brand">
       <div class="brand">
