@@ -95,8 +95,8 @@ description: Packs sono et jeux de lumiére préts é l'emploi pour soires, mari
               <li><strong>Pack 1 – Ambiance 40</strong> : 1 pied + 3 jeux LED</li>
               <li><strong>Pack 2 – Ambiance 60</strong> : 2 pieds + 6 jeux LED</li>
               <li><strong>Pack 3 – Ambiance 100</strong> : 3 pieds + 9 jeux LED</li>
+              <li><strong>Pack 4</strong> : Boule à facettes + projecteur</li>
               <li><strong>Pack 5</strong> : 5 barres LED multicolores</li>
-              <li><strong>Pack 7</strong> : Boule à facettes + projecteur</li>
             </ul>
           </section>
           <section class="pack-formula-card__group">
@@ -105,8 +105,8 @@ description: Packs sono et jeux de lumiére préts é l'emploi pour soires, mari
               <h3>Diffusion & mixage</h3>
             </header>
             <ul class="pack-formula-card__rules">
-              <li><strong>Pack 4</strong> : Sono Stage Line Triton</li>
-              <li><strong>Pack 6</strong> : Sono FBT + amplificateur</li>
+              <li><strong>Pack 6</strong> : Sono Stage Line Triton</li>
+              <li><strong>Pack 7</strong> : Sono FBT + amplificateur</li>
             </ul>
           </section>
         </div>
@@ -114,7 +114,6 @@ description: Packs sono et jeux de lumiére préts é l'emploi pour soires, mari
       </div>
       <div class="pack-formula-card__actions">
         <a class="button button--primary" href="{{ site.forms.booking_google_form_url }}" target="_blank" rel="noopener">Sélectionner mes packs</a>
-        <p class="pack-formula-card__note muted">Bientôt : formulaire Microsoft/Google pour choisir vos packs et lancer la réservation.</p>
       </div>
     </article>
   </div>
