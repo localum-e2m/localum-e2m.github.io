@@ -30,16 +30,70 @@
       {% assign callout_href = callout.button.url | relative_url %}
       {% endunless %}
       <div class="footer-cta__actions">
-        <a class="button button--primary" href="{{ callout_href }}" {% if callout.button.external %}target="_blank" rel="noopener"{% endif %}>
+        <a
+          class="button button--primary"
+          href="{{ callout_href }}"
+          data-contact-form-trigger
+          {% if callout.button.external %}target="_blank" rel="noopener"{% endif %}>
           {{ callout.button.label }}
         </a>
       </div>
       {% endif %}
     </div>
     {% if contact_form_embed %}
-    <div class="footer-cta__form">
-      <iframe src="{{ contact_form_embed }}" title="Formulaire de contact" loading="lazy" allowfullscreen></iframe>
+    <div class="footer-cta__form" id="footer-contact-form" hidden aria-hidden="true">
+      <iframe src="{{ contact_form_embed }}" title="Formulaire de contact" loading="lazy" allowfullscreen tabindex="-1"></iframe>
     </div>
     {% endif %}
   </div>
 </section>
+{% if contact_form_embed %}
+<script>
+  (function () {
+    var trigger = document.querySelector('[data-contact-form-trigger]');
+    var formWrapper = document.getElementById('footer-contact-form');
+    if (!trigger || !formWrapper) {
+      return;
+    }
+
+    var iframe = formWrapper.querySelector('iframe');
+    var fallbackUrl = trigger.getAttribute('href');
+
+    function revealForm() {
+      if (formWrapper.classList.contains('is-visible')) {
+        return;
+      }
+
+      formWrapper.removeAttribute('hidden');
+      formWrapper.setAttribute('aria-hidden', 'false');
+
+      if (iframe) {
+        iframe.removeAttribute('tabindex');
+      }
+
+      requestAnimationFrame(function () {
+        formWrapper.classList.add('is-visible');
+      });
+
+      setTimeout(function () {
+        formWrapper.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 150);
+    }
+
+    trigger.addEventListener('click', function (event) {
+      event.preventDefault();
+      if (!formWrapper) {
+        if (fallbackUrl) {
+          window.location.href = fallbackUrl;
+        }
+        return;
+      }
+      revealForm();
+    });
+
+    if (window.location.hash === '#footer-contact-form') {
+      revealForm();
+    }
+  })();
+</script>
+{% endif %}
