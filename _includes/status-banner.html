@@ -1,0 +1,24 @@
+<!-- _includes/status-banner.html -->
+{% assign banner = site.status_banner %}
+{% if banner and banner.enabled and banner.text %}
+<div class="status-banner" role="status" aria-live="polite">
+  <div class="container">
+    <div class="status-banner__inner">
+      <span class="status-banner__pill">
+        <span aria-hidden="true">●</span>
+        {{ banner.pill_label | default: "Info" }}
+      </span>
+      <span class="status-banner__message">{{ banner.text }}</span>
+      {% if banner.link and banner.link.url and banner.link.label %}
+      <a
+        class="status-banner__link"
+        href="{{ banner.link.url }}"
+        {% if banner.link.external %}target="_blank" rel="noopener"{% endif %}
+      >
+        {{ banner.link.label }}
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endif %}

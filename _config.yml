@@ -9,7 +9,7 @@ baseurl: ""
 owner_name: "Timothy"
 
 status_banner:
-  enabled: true
+  enabled: false
   text: "Site en version de test : certaines informations peuvent évoluer avant le lancement officiel."
   link:
     label: "Nous contacter"
@@ -234,7 +234,6 @@ exclude:
   - README.md
 
 permalink: /:title/
-
 
 
 
