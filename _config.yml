@@ -27,7 +27,7 @@ navigation:
   - label: "Contact"
     url: "/contact/"
   - label: "Réserver"
-    url: "https://forms.gle/votre-form"
+    url: "https://forms.gle/9Uj11gUL9mNcdGsS8"
     external: true
     style: "button"
 
