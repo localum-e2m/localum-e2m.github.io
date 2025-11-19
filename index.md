@@ -2,7 +2,7 @@
 layout: default
 title: Accueil
 permalink: /
-description: Location sono, location jeux de lumiére et packs DJ complets dans l'entre deux mers avec livraison par zones, installation et assistance pour vos soires.
+description: Location sono, location jeux de lumiére et packs DJ complets en Gironde, secteur Entre-deux-Mers avec livraison par zones, installation et assistance pour vos soires.
 ---
 
 {% assign hero = site.branding.hero %}
