@@ -189,9 +189,6 @@ footer:
     button:
       label: "Contactez moi"
       url: "https://forms.gle/9Uj11gUL9mNcdGsS8"
-  info:
-    hours: "Lun - Sam : 9 h à 19 h"
-    service_area: "Livraison jusqu’à 50 km autour de notre dépôt"
   links:
     - label: "Mentions légales"
       url: "/mentions-legales/"
